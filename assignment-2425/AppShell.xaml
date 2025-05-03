@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="assignment_2425.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:assignment_2425"
+    Shell.FlyoutBehavior="Disabled"
+    Title="assignment_2425">
+
+    <TabBar>
+        <ShellContent
+        Title="Home"
+        Icon="home.png"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="Home" />
+        <ShellContent
+        Title="Orders"
+        Icon="order.png"
+        ContentTemplate="{DataTemplate local:OrdersPage}"
+        Route="Orders" />
+        <ShellContent
+        Title="FoodGroceries"
+        Icon="foodgroceries.jpg"
+        ContentTemplate="{DataTemplate local:FoodGroceriesPage}"
+        Route="Food/Groceries" />
+    </TabBar>
+
+</Shell>
