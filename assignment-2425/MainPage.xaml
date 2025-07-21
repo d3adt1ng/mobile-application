@@ -15,7 +15,7 @@
                 <CollectionView ItemsSource="{Binding PromoItems}">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Frame Padding="5" Margin="5" BackgroundColor="LightGray">
+                            <Frame Padding="5" Margin="5" BackgroundColor="DarkGray">
                                 <Grid>
                                     <Image Source="{Binding Image}" Aspect="AspectFill"/>
 

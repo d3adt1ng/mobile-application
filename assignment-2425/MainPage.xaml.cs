@@ -38,7 +38,7 @@ namespace assignment_2425
                     button.TranslationY = 30;
 
                     await Task.WhenAll(
-                            button.FadeTo(1, 300),
+                            button.FadeTo(2, 300),
                             button.TranslateTo(0, 0, 300)
                     );
 
