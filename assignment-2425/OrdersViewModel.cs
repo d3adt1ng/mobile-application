@@ -21,7 +21,11 @@ namespace assignment_2425
             };
 
         }
-    
+
+        internal void FilterOrders(string newTextValue)
+        {
+            throw new NotImplementedException();
+        }
     }
     public class OrderItem 
     { 
