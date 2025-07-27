@@ -18,7 +18,6 @@ namespace assignment_2425
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
-
             return builder.Build();
         }
     }

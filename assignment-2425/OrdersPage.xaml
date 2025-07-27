@@ -10,7 +10,6 @@
 
         <SearchBar Placeholder="Search Past Orders"
                    TextChanged="OnSearchTextChanged" />
-
         <Label Text="Most Recent Order" FontSize="24" FontAttributes="Bold"/>
         <Frame Padding="10" BackgroundColor="LightGray" CornerRadius="12">
             <VerticalStackLayout>

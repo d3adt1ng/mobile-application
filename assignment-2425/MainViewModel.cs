@@ -9,7 +9,6 @@ namespace assignment_2425 {
         public ObservableCollection<PromoItem> PromoItems { get; set; }
 
         public ObservableCollection<FoodItem> PopularItems { get; set; }
-
         public ObservableCollection<Restaurant> NearbyPlaces { get; set; }
         public Command<Restaurant> PlaceTappedCommand { get; }
         public ICommand PlaceTapppedCommand { get; }

@@ -6,7 +6,6 @@
 	Title="Food/Groceries">
 
     <VerticalStackLayout Padding="10">
-		
         <SearchBar Placeholder="Search"/>
 
 		<Label Text="Popular Places" FontSize="24" FontAttributes="Bold"/>

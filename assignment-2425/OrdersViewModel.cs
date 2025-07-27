@@ -10,7 +10,6 @@ namespace assignment_2425
 
         public OrdersViewModel() 
         {
-
             RecentOrder = "Dixy's Chicken Order from Yesterday";
 
             PastOrders = new ObservableCollection<OrderItem>

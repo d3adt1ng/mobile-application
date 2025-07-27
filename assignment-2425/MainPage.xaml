@@ -9,7 +9,6 @@
 
             <SearchBar Placeholder="Search"/>
 
-
             <VerticalStackLayout Spacing="5" Padding="10">
                 <Label Text="PROMOTION" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
                 <CollectionView ItemsSource="{Binding PromoItems}">

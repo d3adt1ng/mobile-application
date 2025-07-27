@@ -6,11 +6,8 @@ namespace assignment_2425
     public class FoodGroceriesViewModel
     { 
         public ObservableCollection<Store> PopularStores { get; set; }
-
         public ObservableCollection<Item> Essentials { get; set; }
-
         public ObservableCollection<Item> OrderAgain { get; set; }
-
         public FoodGroceriesViewModel() 
         {
 

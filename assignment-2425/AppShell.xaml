@@ -8,6 +8,7 @@
     Title="assignment_2425">
 
     <TabBar>
+        
         <ShellContent
         Title="Home"
         Icon="home.png"
@@ -23,6 +24,7 @@
         Icon="foodgroceries.jpg"
         ContentTemplate="{DataTemplate local:FoodGroceriesPage}"
         Route="Food/Groceries" />
+        
     </TabBar>
 
 </Shell>

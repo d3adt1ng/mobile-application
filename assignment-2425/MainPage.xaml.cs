@@ -12,7 +12,6 @@ namespace assignment_2425
             InitializeComponent();
             BindingContext = new MainViewModel();
         }
-
         private async void Place_Tapped(object sender, EventArgs e)
         {
             if (sender is Grid grid) 
